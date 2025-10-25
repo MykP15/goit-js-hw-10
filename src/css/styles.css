@@ -16,3 +16,53 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+
+
+.timer {
+display: flex;
+justify-content: center;
+margin-top: 40px;
+gap: 20px;
+}
+
+.field {
+display: flex;
+flex-direction: column;
+}
+
+.value {
+font-size: 40px;
+font-weight: 500;
+}
+
+.label {
+font-size: 16px;
+text-transform: uppercase;
+font-weight: 500;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.notif-btn{
+  margin-top: 16px;
+  width: 195px;
+}
+
+.delay{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 195px;
+}
+
+.state{
+  display: flex;
+  text-align: left;
+  width: 168px;
+}
